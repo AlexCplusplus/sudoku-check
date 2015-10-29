@@ -1,0 +1,13 @@
+*~
+*.autosave
+*.a
+*.o
+*.obj
+*.so
+*.so.*
+*.debug
+Makefile*
+*.user
+*.pro.user*
+*.kdev4
+
