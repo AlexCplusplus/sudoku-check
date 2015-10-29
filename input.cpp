@@ -20,13 +20,13 @@ int read(int *matrix)
     int *end = matrix + (DIM * DIM);
     for (int *m = matrix; m != end; ++m) {
         if (input.eof()) {
-            std::cout << "Input file contains insuffecient data." << std::endl;
+            std::cout << "Input file contains insufficient data." << std::endl;
             return FILE_PREMATURE_END_ERR;
         }
 
         input >> *m;
         if (input.fail()) {
-            std::cout << "An error occurs during an input operation." << std::endl;
+            std::cout << "An error occurred during an input operation." << std::endl;
             return INPUT_ERROR;
         }
 
